@@ -17,10 +17,10 @@ spec:
   ingressClassName: nginx
   tls:
     - hosts:
-        - otel-demo.yourdomain.com  # CHANGE THIS
+        - cloudenochoteldemo.duckdns.org
       secretName: otel-demo-tls
   rules:
-    - host: otel-demo.yourdomain.com  # CHANGE THIS to your domain
+    - host: cloudenochoteldemo.duckdns.org
       http:
         paths:
           - path: /
