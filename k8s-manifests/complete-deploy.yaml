@@ -688,6 +688,8 @@ spec:
               value: 'opentelemetry-demo-paymentservice:8080'
             - name: PRODUCT_CATALOG_SERVICE_ADDR
               value: 'opentelemetry-demo-productcatalogservice:8080'
+            - name: PRODUCT_CATALOG_ADDR
+              value: 'opentelemetry-demo-productcatalogservice:8080'
             - name: SHIPPING_SERVICE_ADDR
               value: 'opentelemetry-demo-shippingservice:8080'
             - name: SHIPPING_ADDR
