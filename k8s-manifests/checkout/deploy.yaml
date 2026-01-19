@@ -57,6 +57,8 @@ spec:
               value: 'opentelemetry-demo-cartservice:8080'
             - name: CURRENCY_SERVICE_ADDR
               value: 'opentelemetry-demo-currencyservice:8080'
+            - name: CURRENCY_ADDR
+              value: 'opentelemetry-demo-currencyservice:8080'
             - name: EMAIL_SERVICE_ADDR
               value: http://opentelemetry-demo-emailservice:8080
             - name: PAYMENT_SERVICE_ADDR
